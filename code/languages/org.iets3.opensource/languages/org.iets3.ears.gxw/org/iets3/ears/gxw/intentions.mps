@@ -10,6 +10,7 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="q3w4" ref="r:9fc7e752-54e5-497f-97da-8e179a90760e(org.iets3.ears.gxw.structure)" />
     <import index="os8l" ref="r:6fc3aa77-cd90-42e4-a961-8adeac76afb8(org.iets3.ears.gxw.behavior)" />
+    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -136,10 +137,8 @@
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
       <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167228628751" name="hasException" index="34fQS0" />
         <property id="1167245565795" name="severity" index="35gtTG" />
         <child id="1167227463056" name="logExpression" index="34bqiv" />
-        <child id="1167227561449" name="exception" index="34bMjA" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -2307,6 +2306,32 @@
                 </node>
               </node>
             </node>
+            <node concept="3cpWs8" id="1vCvjaRE2lE" role="3cqZAp">
+              <node concept="3cpWsn" id="1vCvjaRE2lF" role="3cpWs9">
+                <property role="TrG5h" value="systhesizeSolverOutput" />
+                <node concept="17QB3L" id="1vCvjaRE2lw" role="1tU5fm" />
+                <node concept="2OqwBi" id="1vCvjaRE2lG" role="33vP2m">
+                  <node concept="2Sf5sV" id="1vCvjaRE2lH" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="1vCvjaRE2lI" role="2OqNvi">
+                    <ref role="37wK5l" to="os8l:3ghj88fVJYt" resolve="systhesizeSolverOutput" />
+                    <node concept="37vLTw" id="1vCvjaRE2lJ" role="37wK5m">
+                      <ref role="3cqZAo" node="6mryTk89UcN" resolve="inputFile" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1vCvjaRE70i" role="3cqZAp">
+              <node concept="2YIFZM" id="1vCvjaRE70j" role="3clFbG">
+                <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object):void" resolve="showMessageDialog" />
+                <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                <node concept="10Nm6u" id="1vCvjaRE70k" role="37wK5m" />
+                <node concept="37vLTw" id="1vCvjaRE9EX" role="37wK5m">
+                  <ref role="3cqZAo" node="1vCvjaRE2lF" resolve="systhesizeSolverOutput" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="1vCvjaRE4N0" role="3cqZAp" />
             <node concept="3clFbF" id="3ghj88fVxAm" role="3cqZAp">
               <node concept="2OqwBi" id="3ghj88fVy5l" role="3clFbG">
                 <node concept="2Sf5sV" id="3ghj88fVxAk" role="2Oq$k0" />
@@ -2315,14 +2340,8 @@
                   <node concept="37vLTw" id="18TtuougCv_" role="37wK5m">
                     <ref role="3cqZAo" node="6mryTk8aJkq" resolve="outputFile" />
                   </node>
-                  <node concept="2OqwBi" id="18TtuougCO5" role="37wK5m">
-                    <node concept="2Sf5sV" id="18TtuougCLG" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="18TtuougDbU" role="2OqNvi">
-                      <ref role="37wK5l" to="os8l:3ghj88fVJYt" resolve="systhesizeSolverOutput" />
-                      <node concept="37vLTw" id="5Uka0RZNaR3" role="37wK5m">
-                        <ref role="3cqZAo" node="6mryTk89UcN" resolve="inputFile" />
-                      </node>
-                    </node>
+                  <node concept="37vLTw" id="1vCvjaRE2lK" role="37wK5m">
+                    <ref role="3cqZAo" node="1vCvjaRE2lF" resolve="systhesizeSolverOutput" />
                   </node>
                 </node>
               </node>
@@ -2352,14 +2371,14 @@
           </node>
           <node concept="TDmWw" id="1NfcMgLn$tY" role="TEbGg">
             <node concept="3clFbS" id="1NfcMgLn$u1" role="TDEfX">
-              <node concept="34ab3g" id="1NfcMgLn$wF" role="3cqZAp">
-                <property role="35gtTG" value="info" />
-                <property role="34fQS0" value="true" />
-                <node concept="Xl_RD" id="1NfcMgLn$wH" role="34bqiv">
-                  <property role="Xl_RC" value="the exception is " />
-                </node>
-                <node concept="37vLTw" id="1NfcMgLn$wJ" role="34bMjA">
-                  <ref role="3cqZAo" node="1NfcMgLn$u2" resolve="e" />
+              <node concept="3clFbF" id="2EaowSc4Chl" role="3cqZAp">
+                <node concept="2YIFZM" id="2EaowSc4Chn" role="3clFbG">
+                  <ref role="1Pybhc" to="dxuu:~JOptionPane" resolve="JOptionPane" />
+                  <ref role="37wK5l" to="dxuu:~JOptionPane.showMessageDialog(java.awt.Component,java.lang.Object):void" resolve="showMessageDialog" />
+                  <node concept="10Nm6u" id="2EaowSc4Cho" role="37wK5m" />
+                  <node concept="Xl_RD" id="2EaowSc68PD" role="37wK5m">
+                    <property role="Xl_RC" value="exception" />
+                  </node>
                 </node>
               </node>
             </node>

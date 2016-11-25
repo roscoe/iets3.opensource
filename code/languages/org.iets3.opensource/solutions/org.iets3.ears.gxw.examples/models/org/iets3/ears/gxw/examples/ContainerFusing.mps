@@ -10,14 +10,6 @@
     <import index="klt6" ref="r:b31e5917-e250-4adb-ab7b-b5c3a29de665(org.iets3.ears.gxw.examples.ContainerFusing)" />
   </imports>
   <registry>
-    <language id="33eb1b5b-ad96-4262-9112-684c487e01e0" name="org.iets3.graphicalLustre">
-      <concept id="6867915925772324129" name="org.iets3.graphicalLustre.structure.GateDefinition" flags="ng" index="3hDZ04">
-        <property id="6867915925772324130" name="definition" index="3hDZ07" />
-      </concept>
-      <concept id="6867915925772324126" name="org.iets3.graphicalLustre.structure.GateDescriptors" flags="ng" index="3hDZ0V">
-        <child id="6867915925772324127" name="gateDefinitions" index="3hDZ0U" />
-      </concept>
-    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -177,7 +169,7 @@
         <ref role="3T_uuC" node="34ScOrO_opG" />
       </node>
       <node concept="3t3aUO" id="34ScOrO_osH" role="3tWTBb" />
-      <node concept="OJJ_U" id="7HbJNeu4E0R" role="1QgFCz">
+      <node concept="OJJ_U" id="1vCvjaRCu4K" role="1QgFCz">
         <ref role="OJJ_O" node="7HbJNetZtsI" />
       </node>
       <node concept="3T_uuX" id="1qavb4ejuyD" role="3T_IbW">
@@ -329,134 +321,11 @@
         <ref role="3T_uuC" node="34ScOrO_otc" />
       </node>
       <node concept="3t3aUO" id="Sr3WmIw2nh" role="3tWTBb" />
-      <node concept="OJJ_J" id="Sr3WmIw2nj" role="1QgFCz">
-        <node concept="OJJ_U" id="7HbJNetTPBq" role="9Cqx7">
+      <node concept="OJJ_J" id="1vCvjaRDI1F" role="1QgFCz">
+        <node concept="OJJ_U" id="1vCvjaRDI1M" role="9Cqx7">
           <ref role="OJJ_O" node="1qavb4eyKmf" />
         </node>
       </node>
-    </node>
-  </node>
-  <node concept="3hDZ0V" id="1vCvjaR$4$_">
-    <property role="TrG5h" value="Gate Descriptors" />
-    <node concept="3hDZ04" id="1vCvjaR$4$B" role="3hDZ0U">
-      <property role="TrG5h" value="Ctrl_0" />
-      <property role="3hDZ07" value="node TrUB (input, release: bool) returns (output: int);&#10;var lock: bool;&#10;let &#9;&#10;&#9;lock = if input and not release then true&#10;&#9;       else if release then false&#10;&#9;       else false -&gt; pre(lock);&#10;&#9;output = if input and not release then 1&#10;&#9;&#9;else if release then 2&#10;&#9;&#9;else 2 -&gt; if pre(lock) then 1&#10;&#9;&#9;&#9;  else 2 ;&#10;&#9;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4$D" role="3hDZ0U">
-      <property role="TrG5h" value="release0" />
-      <property role="3hDZ07" value="node Or (input1: int, input 2: int) returns (output: int);&#10;let &#10;&#9;output = if input1 = 1 or input2 = 1 then 1&#10; else output = 0&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4$F" role="3hDZ0U">
-      <property role="TrG5h" value="Ctrl_1" />
-      <property role="3hDZ07" value="node IfTB (input: bool) returns (output: int);&#10;let &#10;&#9;output = if input then 1&#10;&#9;&#9;    else 2;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4$H" role="3hDZ0U">
-      <property role="TrG5h" value="Ctrl_2" />
-      <property role="3hDZ07" value="node TrUB (input, release: bool) returns (output: int);&#10;var lock: bool;&#10;let &#9;&#10;&#9;lock = if input and not release then true&#10;&#9;       else if release then false&#10;&#9;       else false -&gt; pre(lock);&#10;&#9;output = if input and not release then 1&#10;&#9;&#9;else if release then 2&#10;&#9;&#9;else 2 -&gt; if pre(lock) then 1&#10;&#9;&#9;&#9;  else 2 ;&#10;&#9;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4$J" role="3hDZ0U">
-      <property role="TrG5h" value="release2" />
-      <property role="3hDZ07" value="node Or (input1: int, input 2: int) returns (output: int);&#10;let &#10;&#9;output = if input1 = 1 or input2 = 1 then 1&#10; else output = 0&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4$L" role="3hDZ0U">
-      <property role="TrG5h" value="Ctrl_3" />
-      <property role="3hDZ07" value="node IfTB (input: bool) returns (output: int);&#10;let &#10;&#9;output = if input then 1&#10;&#9;&#9;    else 2;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4$N" role="3hDZ0U">
-      <property role="TrG5h" value="Ctrl_4" />
-      <property role="3hDZ07" value="node Iff (input: bool) returns (output: int);&#10;let &#10;&#9;output = if input then 1&#10;&#9;&#9;    else 0;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4$P" role="3hDZ0U">
-      <property role="TrG5h" value="event4" />
-      <property role="3hDZ07" value="generic event: -- monitoring event !in0&amp;&amp;Xin0&#10;node FBevent4 (in0 : bool) returns (output: bool);let&#9;output =  false -&gt; pre( not in0) and in0;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4$R" role="3hDZ0U">
-      <property role="TrG5h" value="Ctrl_5" />
-      <property role="3hDZ07" value="node TrUB (input, release: bool) returns (output: int);&#10;var lock: bool;&#10;let &#9;&#10;&#9;lock = if input and not release then true&#10;&#9;       else if release then false&#10;&#9;       else false -&gt; pre(lock);&#10;&#9;output = if input and not release then 1&#10;&#9;&#9;else if release then 2&#10;&#9;&#9;else 2 -&gt; if pre(lock) then 1&#10;&#9;&#9;&#9;  else 2 ;&#10;&#9;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4$T" role="3hDZ0U">
-      <property role="TrG5h" value="release5" />
-      <property role="3hDZ07" value="node Or (input1: int, input 2: int) returns (output: int);&#10;let &#10;&#9;output = if input1 = 1 or input2 = 1 then 1&#10; else output = 0&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4$V" role="3hDZ0U">
-      <property role="TrG5h" value="Ctrl_6" />
-      <property role="3hDZ07" value="node Iff (input: bool) returns (output: int);&#10;let &#10;&#9;output = if input then 1&#10;&#9;&#9;    else 0;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4$X" role="3hDZ0U">
-      <property role="TrG5h" value="event6" />
-      <property role="3hDZ07" value="generic event: -- monitoring event !in0&amp;&amp;Xin0&#10;node FBevent6 (in0 : bool) returns (output: bool);let&#9;output =  false -&gt; pre( not in0) and in0;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4$Z" role="3hDZ0U">
-      <property role="TrG5h" value="Ctrl_7" />
-      <property role="3hDZ07" value="node TrUB (input, release: bool) returns (output: int);&#10;var lock: bool;&#10;let &#9;&#10;&#9;lock = if input and not release then true&#10;&#9;       else if release then false&#10;&#9;       else false -&gt; pre(lock);&#10;&#9;output = if input and not release then 1&#10;&#9;&#9;else if release then 2&#10;&#9;&#9;else 2 -&gt; if pre(lock) then 1&#10;&#9;&#9;&#9;  else 2 ;&#10;&#9;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_1" role="3hDZ0U">
-      <property role="TrG5h" value="release7" />
-      <property role="3hDZ07" value="node Or (input1: int, input 2: int) returns (output: int);&#10;let &#10;&#9;output = if input1 = 1 or input2 = 1 then 1&#10; else output = 0&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_3" role="3hDZ0U">
-      <property role="TrG5h" value="Ctrl_8" />
-      <property role="3hDZ07" value="node IfTB (input: bool) returns (output: int);&#10;let &#10;&#9;output = if input then 1&#10;&#9;&#9;    else 2;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_5" role="3hDZ0U">
-      <property role="TrG5h" value="Ctrl_9" />
-      <property role="3hDZ07" value="node IfTB (input: bool) returns (output: int);&#10;let &#10;&#9;output = if input then 1&#10;&#9;&#9;    else 2;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_7" role="3hDZ0U">
-      <property role="TrG5h" value="Ctrl_10" />
-      <property role="3hDZ07" value="node IfTB (input: bool) returns (output: int);&#10;let &#10;&#9;output = if input then 1&#10;&#9;&#9;    else 2;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_9" role="3hDZ0U">
-      <property role="TrG5h" value="Ctrl_11" />
-      <property role="3hDZ07" value="node IfTB (input: bool) returns (output: int);&#10;let &#10;&#9;output = if input then 1&#10;&#9;&#9;    else 2;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_b" role="3hDZ0U">
-      <property role="TrG5h" value="Resstirringmotorstart" />
-      <property role="3hDZ07" value="node Res2 (input0 , input1: int; A: bool) returns (output: bool);&#10;let&#10;&#9;output = if input0 = 1  or input1 = 1  then true&#10;             &#9; else if input0 = 0  or input1 = 0  then false&#10;&#9;&#9; else A;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_d" role="3hDZ0U">
-      <property role="TrG5h" value="Not_11stirringmotorstart" />
-      <property role="3hDZ07" value="node TernaryNot (input: int) returns (output: int);&#10;let &#10;&#9;output = if input = 1 then 0&#10;&#9;&#9; else if input = 0 then 1&#10;&#9;&#9; else input;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_f" role="3hDZ0U">
-      <property role="TrG5h" value="Res120sectimerstart" />
-      <property role="3hDZ07" value="node Res1 (input0: int; A: bool) returns (output: bool);&#10;let&#10;&#9;output = if input0 = 1  then true&#10;             &#9; else if input0 = 0  then false&#10;&#9;&#9; else A;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_h" role="3hDZ0U">
-      <property role="TrG5h" value="Res60sectimerstart" />
-      <property role="3hDZ07" value="node Res1 (input0: int; A: bool) returns (output: bool);&#10;let&#10;&#9;output = if input0 = 1  then true&#10;             &#9; else if input0 = 0  then false&#10;&#9;&#9; else A;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_j" role="3hDZ0U">
-      <property role="TrG5h" value="Resvalve0open" />
-      <property role="3hDZ07" value="node Res3 (input0 , input1 , input2: int; A: bool) returns (output: bool);&#10;let&#10;&#9;output = if input0 = 1  or input1 = 1  or input2 = 1  then true&#10;             &#9; else if input0 = 0  or input1 = 0  or input2 = 0  then false&#10;&#9;&#9; else A;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_l" role="3hDZ0U">
-      <property role="TrG5h" value="Not_1valve0open" />
-      <property role="3hDZ07" value="node TernaryNot (input: int) returns (output: int);&#10;let &#10;&#9;output = if input = 1 then 0&#10;&#9;&#9; else if input = 0 then 1&#10;&#9;&#9; else input;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_n" role="3hDZ0U">
-      <property role="TrG5h" value="Not_8valve0open" />
-      <property role="3hDZ07" value="node TernaryNot (input: int) returns (output: int);&#10;let &#10;&#9;output = if input = 1 then 0&#10;&#9;&#9; else if input = 0 then 1&#10;&#9;&#9; else input;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_p" role="3hDZ0U">
-      <property role="TrG5h" value="Resvalve1open" />
-      <property role="3hDZ07" value="node Res3 (input0 , input1 , input2: int; A: bool) returns (output: bool);&#10;let&#10;&#9;output = if input0 = 1  or input1 = 1  or input2 = 1  then true&#10;             &#9; else if input0 = 0  or input1 = 0  or input2 = 0  then false&#10;&#9;&#9; else A;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_r" role="3hDZ0U">
-      <property role="TrG5h" value="Not_3valve1open" />
-      <property role="3hDZ07" value="node TernaryNot (input: int) returns (output: int);&#10;let &#10;&#9;output = if input = 1 then 0&#10;&#9;&#9; else if input = 0 then 1&#10;&#9;&#9; else input;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_t" role="3hDZ0U">
-      <property role="TrG5h" value="Not_9valve1open" />
-      <property role="3hDZ07" value="node TernaryNot (input: int) returns (output: int);&#10;let &#10;&#9;output = if input = 1 then 0&#10;&#9;&#9; else if input = 0 then 1&#10;&#9;&#9; else input;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_v" role="3hDZ0U">
-      <property role="TrG5h" value="Resvalve2open" />
-      <property role="3hDZ07" value="node Res2 (input0 , input1: int; A: bool) returns (output: bool);&#10;let&#10;&#9;output = if input0 = 1  or input1 = 1  then true&#10;             &#9; else if input0 = 0  or input1 = 0  then false&#10;&#9;&#9; else A;&#10;tel&#10;" />
-    </node>
-    <node concept="3hDZ04" id="1vCvjaR$4_x" role="3hDZ0U">
-      <property role="TrG5h" value="Not_10valve2open" />
-      <property role="3hDZ07" value="node TernaryNot (input: int) returns (output: int);&#10;let &#10;&#9;output = if input = 1 then 0&#10;&#9;&#9; else if input = 0 then 1&#10;&#9;&#9; else input;&#10;tel&#10;" />
     </node>
   </node>
 </model>

@@ -16,6 +16,7 @@
     <import index="bx2y" ref="f32fddd3-9ea0-405b-9874-fdda57f5e83d/java:org.fortiss.de.autocode4.gxw.twoqbf(org.iets3.structuralCoder/)" />
     <import index="vw7m" ref="f32fddd3-9ea0-405b-9874-fdda57f5e83d/java:org.fortiss.de.autocode4.gxw.codegen(org.iets3.structuralCoder/)" />
     <import index="13k4" ref="f32fddd3-9ea0-405b-9874-fdda57f5e83d/java:org.fortiss.de.autocode4.gxw.sdf(org.iets3.structuralCoder/)" />
+    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="q3w4" ref="r:9fc7e752-54e5-497f-97da-8e179a90760e(org.iets3.ears.gxw.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -1205,6 +1206,7 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="1vCvjaRDKnV" role="3cqZAp" />
                     <node concept="3cpWs6" id="2lS7bsHPHTU" role="3cqZAp">
                       <node concept="3cpWs3" id="2lS7bsHPJIG" role="3cqZAk">
                         <node concept="2OqwBi" id="2lS7bsHPK9R" role="3uHU7w">
@@ -1620,6 +1622,7 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="3clFbH" id="1vCvjaRDUQS" role="3cqZAp" />
                       <node concept="3cpWs6" id="2lS7bsHRbM4" role="3cqZAp">
                         <node concept="3cpWs3" id="2lS7bsHRc0F" role="3cqZAk">
                           <node concept="2OqwBi" id="2lS7bsHRc0G" role="3uHU7w">
@@ -1645,9 +1648,10 @@
                       <property role="Xl_RC" value="Parameter assignment for resolution blocks unavailable " />
                     </node>
                   </node>
+                  <node concept="3clFbH" id="1vCvjaRDXyg" role="3cqZAp" />
                   <node concept="3cpWs6" id="2lS7bsHRhpE" role="3cqZAp">
                     <node concept="Xl_RD" id="2lS7bsHRiAe" role="3cqZAk">
-                      <property role="Xl_RC" value=" " />
+                      <property role="Xl_RC" value="Parameter assignment for resolution blocks unavailable  " />
                     </node>
                   </node>
                 </node>
