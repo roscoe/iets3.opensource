@@ -1302,8 +1302,8 @@
                           <ref role="3Tt5mk" to="w9y2:mIQkxfpv7_" resolve="category" />
                         </node>
                       </node>
-                      <node concept="2qgKlT" id="1Q0bloV3Ts1" role="2OqNvi">
-                        <ref role="37wK5l" node="1Q0bloV3JFY" resolve="actsAsTargetOfConnector" />
+                      <node concept="2qgKlT" id="59WJm62TtpU" role="2OqNvi">
+                        <ref role="37wK5l" node="mIQkxfpv6p" resolve="actsAsSourceOfConnector" />
                       </node>
                     </node>
                   </node>
@@ -3754,14 +3754,6 @@
       <node concept="3Tm1VV" id="mIQkxfpv6q" role="1B3o_S" />
       <node concept="10P_77" id="mIQkxfpv6r" role="3clF45" />
       <node concept="3clFbS" id="mIQkxfpv6s" role="3clF47" />
-    </node>
-    <node concept="13i0hz" id="1Q0bloV3JFY" role="13h7CS">
-      <property role="TrG5h" value="actsAsTargetOfConnector" />
-      <property role="13i0it" value="true" />
-      <property role="13i0iv" value="true" />
-      <node concept="3Tm1VV" id="1Q0bloV3JFZ" role="1B3o_S" />
-      <node concept="10P_77" id="1Q0bloV3JG0" role="3clF45" />
-      <node concept="3clFbS" id="1Q0bloV3JG1" role="3clF47" />
     </node>
     <node concept="13i0hz" id="mIQkxfpvfA" role="13h7CS">
       <property role="TrG5h" value="isDirectional" />
