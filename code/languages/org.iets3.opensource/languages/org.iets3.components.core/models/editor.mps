@@ -749,7 +749,7 @@
         <node concept="3F0ifn" id="5ZBgTg_AsG1" role="3EZMnx">
           <property role="3F0ifm" value="+" />
           <node concept="A1WHu" id="5ZBgTg_AtLp" role="3vIgyS">
-            <ref role="A1WHt" to="ir4w:5ZBgTg_A5iE" resolve="MainAttrSubstitution" />
+            <ref role="A1WHt" to="ir4w:7VZAX30T7jc" resolve="AttributesMenu" />
           </node>
         </node>
         <node concept="18a60v" id="5ZBgTg_Atqe" role="3EZMnx">

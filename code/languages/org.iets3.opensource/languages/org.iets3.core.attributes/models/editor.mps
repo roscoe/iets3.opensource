@@ -667,57 +667,6 @@
       </node>
     </node>
   </node>
-  <node concept="3ICXOK" id="5ZBgTg_A5iE">
-    <property role="3GE5qa" value="attributes" />
-    <property role="TrG5h" value="MainAttributeSubstitution" />
-    <ref role="aqKnT" to="138:3NBP8_OgMVd" resolve="IAttributed" />
-    <node concept="1Qtc8_" id="14qlKFqdWvL" role="IW6Ez">
-      <node concept="1vlq3a" id="14qlKFqfZuO" role="1Qtc8A">
-        <node concept="1GhOrh" id="14qlKFqg0lq" role="1vlqcB">
-          <node concept="1GhMSn" id="14qlKFqg0lr" role="1GhOrs">
-            <node concept="3clFbS" id="14qlKFqg0ls" role="2VODD2">
-              <node concept="3clFbF" id="5ZBgTg_IEDN" role="3cqZAp">
-                <node concept="2OqwBi" id="5ZBgTg_IDa$" role="3clFbG">
-                  <node concept="7Obwk" id="5ZBgTg_ID0z" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="5ZBgTg_IDpT" role="2OqNvi">
-                    <ref role="37wK5l" to="soq7:5ZBgTg_IuUa" resolve="mainAttributes" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="IWgqT" id="14qlKFqg0lB" role="1GhOri">
-            <node concept="1hCUdq" id="14qlKFqg0lC" role="1hCUd6">
-              <node concept="3clFbS" id="14qlKFqg0lD" role="2VODD2">
-                <node concept="3clFbF" id="14qlKFqg0lE" role="3cqZAp">
-                  <node concept="2OqwBi" id="14qlKFqg0lF" role="3clFbG">
-                    <node concept="2ZBlsa" id="14qlKFqg0lG" role="2Oq$k0" />
-                    <node concept="3n3YKJ" id="14qlKFqg0lH" role="2OqNvi" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="IWg2L" id="14qlKFqg0lI" role="IWgqQ">
-              <node concept="3clFbS" id="14qlKFqg0lJ" role="2VODD2" />
-            </node>
-          </node>
-          <node concept="3bZ5Sz" id="14qlKFqg0lP" role="2ZBHrp">
-            <ref role="3bZ5Sy" to="138:3NBP8_OgMyV" resolve="IAttribute" />
-          </node>
-        </node>
-        <node concept="293xgL" id="14qlKFqfZuQ" role="1hCDOS">
-          <node concept="3clFbS" id="14qlKFqfZuS" role="2VODD2">
-            <node concept="3clFbF" id="14qlKFqg0Lh" role="3cqZAp">
-              <node concept="Xl_RD" id="14qlKFqg0Lg" role="3clFbG">
-                <property role="Xl_RC" value="Attribute" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="2j_NTm" id="14qlKFqdWvP" role="1Qtc8$" />
-    </node>
-  </node>
   <node concept="3ICXOK" id="7VZAX30T7jc">
     <property role="3GE5qa" value="attributes" />
     <property role="TrG5h" value="AttributesMenu" />
