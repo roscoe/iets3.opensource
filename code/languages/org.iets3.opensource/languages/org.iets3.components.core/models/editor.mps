@@ -746,7 +746,7 @@
       <node concept="3EZMnI" id="siw10FmIv1" role="3EZMnx">
         <node concept="2iRfu4" id="siw10FmIv2" role="2iSdaV" />
         <node concept="PMmxH" id="165w3uAflu9" role="3EZMnx">
-          <ref role="PMmxG" to="ir4w:165w3uAfjUj" resolve="mainAttributes" />
+          <ref role="PMmxG" to="ir4w:165w3uAfjUj" resolve="mainAttributesOptionals" />
         </node>
         <node concept="1kHk_G" id="5kXA14mWgcV" role="3EZMnx">
           <ref role="1NtTu8" to="w9y2:5kXA14mWc_G" resolve="public" />
@@ -8559,7 +8559,7 @@
     <ref role="1XX52x" to="w9y2:6LfBX8YkpdW" resolve="Port" />
     <node concept="3EZMnI" id="mIQkxfpv8q" role="2wV5jI">
       <node concept="PMmxH" id="165w3u_zeX2" role="3EZMnx">
-        <ref role="PMmxG" to="ir4w:165w3u_zeVW" resolve="attributePlaceholder" />
+        <ref role="PMmxG" to="ir4w:165w3u_zeVW" resolve="attributesPlaceholder" />
       </node>
       <node concept="l2Vlx" id="mIQkxfpv8r" role="2iSdaV" />
       <node concept="1kIj98" id="mIQkxfpv9o" role="3EZMnx">
@@ -11339,7 +11339,6 @@
         <property role="TrG5h" value="innerPortName" />
         <node concept="17QB3L" id="67E2MoTrIRQ" role="1tU5fm" />
       </node>
-      <node concept="3Tm1VV" id="67E2MoTrITH" role="1B3o_S" />
       <node concept="P$JXv" id="5zu5MmJSQch" role="lGtFl">
         <node concept="TZ5HA" id="5zu5MmJSQci" role="TZ5H$">
           <node concept="1dT_AC" id="5zu5MmJSQcj" role="1dT_Ay">
