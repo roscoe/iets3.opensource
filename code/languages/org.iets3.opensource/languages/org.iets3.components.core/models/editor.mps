@@ -745,9 +745,6 @@
       <property role="S$Qs1" value="true" />
       <node concept="3EZMnI" id="siw10FmIv1" role="3EZMnx">
         <node concept="2iRfu4" id="siw10FmIv2" role="2iSdaV" />
-        <node concept="PMmxH" id="165w3uAflu9" role="3EZMnx">
-          <ref role="PMmxG" to="ir4w:165w3uAfjUj" resolve="optionalMainAttrs" />
-        </node>
         <node concept="1kHk_G" id="5kXA14mWgcV" role="3EZMnx">
           <ref role="1NtTu8" to="w9y2:5kXA14mWc_G" resolve="public" />
           <ref role="1k5W1q" node="7Dcax7Ah0s0" resolve="componentsKeyword" />
@@ -894,6 +891,15 @@
         <node concept="3XFhqQ" id="siw10FmJb$" role="3EZMnx" />
         <node concept="3EZMnI" id="siw10Fjg2E" role="3EZMnx">
           <node concept="2iRkQZ" id="siw10Fjg2F" role="2iSdaV" />
+          <node concept="3EZMnI" id="TLP0T_fV9P" role="3EZMnx">
+            <node concept="VPM3Z" id="TLP0T_fV9R" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="PMmxH" id="1FjBw5TY3xv" role="3EZMnx">
+              <ref role="PMmxG" to="ir4w:TLP0T_iQ_r" resolve="attributeSection" />
+            </node>
+            <node concept="2iRfu4" id="TLP0T_fV9U" role="2iSdaV" />
+          </node>
           <node concept="3F2HdR" id="6LfBX8Yi4qc" role="3EZMnx">
             <ref role="1NtTu8" to="w9y2:6LfBX8Yi4ps" resolve="contents" />
             <node concept="2iRkQZ" id="siw10Fp9kb" role="2czzBx" />
