@@ -2,7 +2,6 @@
 <model ref="r:684dd234-c374-47dc-be2c-2f785cb027c9(org.iets3.core.attributes.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="583939be-ded0-4735-a055-a74f8477fc34" name="org.iets3.core.attributes" version="-1" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports />
