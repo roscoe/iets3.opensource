@@ -26,8 +26,6 @@
     <import index="e8zp" ref="r:58a558d9-50ed-4b86-91cf-66ce18b52794(com.mbeddr.core.expressions.actions)" />
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -139,6 +137,7 @@
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <property id="1160590353935" name="usesFolding" index="S$Qs1" />
+        <property id="6240706158490734113" name="collapseByDefault" index="3EXrWe" />
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="7723470090030138869" name="foldedCellModel" index="AHCbl" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
@@ -1254,6 +1253,7 @@
       </node>
       <node concept="3EZMnI" id="TLP0T_iW8J" role="1j7Clw">
         <property role="S$Qs1" value="true" />
+        <property role="3EXrWe" value="true" />
         <node concept="gc7cB" id="x8tpS_VvJQ" role="3EZMnx">
           <node concept="3VJUX4" id="x8tpS_VvJR" role="3YsKMw">
             <node concept="3clFbS" id="x8tpS_VvJS" role="2VODD2">
@@ -1334,6 +1334,7 @@
             </node>
           </node>
         </node>
+        <node concept="3F0ifn" id="1Mw0qFV2hUG" role="3EZMnx" />
         <node concept="3F2HdR" id="TLP0T_iWYu" role="3EZMnx">
           <property role="S$F3r" value="true" />
           <ref role="1NtTu8" to="138:3NBP8_OgMVe" resolve="attributes" />
@@ -1356,7 +1357,7 @@
           <node concept="PMmxH" id="TLP0T_j8Sy" role="3EmGlc">
             <ref role="PMmxG" node="5_a2IgXiiQn" resolve="attributesFolding" />
           </node>
-          <node concept="3F0ifn" id="1Mw0qFUsvhD" role="2czzBI" />
+          <node concept="3F0ifn" id="1Mw0qFUUdVV" role="2czzBI" />
         </node>
         <node concept="gc7cB" id="x8tpS_RoTg" role="3EZMnx">
           <node concept="3VJUX4" id="x8tpS_RoTh" role="3YsKMw">
@@ -1386,23 +1387,6 @@
                     <node concept="10M0yZ" id="x8tpS_RuRr" role="37wK5m">
                       <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
                       <ref role="3cqZAo" to="z60i:~Color.gray" resolve="gray" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="gc7cB" id="x8tpS_RoT0" role="3EZMnx">
-          <node concept="3VJUX4" id="x8tpS_RoT1" role="3YsKMw">
-            <node concept="3clFbS" id="x8tpS_RoT2" role="2VODD2">
-              <node concept="3clFbF" id="x8tpS_RoT3" role="3cqZAp">
-                <node concept="2ShNRf" id="x8tpS_RoT4" role="3clFbG">
-                  <node concept="1pGfFk" id="x8tpS_RoT5" role="2ShVmc">
-                    <ref role="37wK5l" to="r4b4:5$bT90Zfi_h" resolve="VerticalWhitespaceCell" />
-                    <node concept="pncrf" id="x8tpS_RoT6" role="37wK5m" />
-                    <node concept="3cmrfG" id="x8tpS_RoT7" role="37wK5m">
-                      <property role="3cmrfH" value="10" />
                     </node>
                   </node>
                 </node>
@@ -1477,20 +1461,6 @@
       <property role="1hAc7j" value="click_action_id" />
       <node concept="1hAIg9" id="1Mw0qFUjhTt" role="1hA7z_">
         <node concept="3clFbS" id="1Mw0qFUjhTu" role="2VODD2">
-          <node concept="3clFbF" id="1Mw0qFUjwVC" role="3cqZAp">
-            <node concept="2OqwBi" id="1Mw0qFUjwV_" role="3clFbG">
-              <node concept="10M0yZ" id="1Mw0qFUjwVA" role="2Oq$k0">
-                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-              </node>
-              <node concept="liA8E" id="1Mw0qFUjwVB" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                <node concept="Xl_RD" id="1Mw0qFUjwWt" role="37wK5m">
-                  <property role="Xl_RC" value="here" />
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="3clFbF" id="1Mw0qFUjhTL" role="3cqZAp">
             <node concept="2OqwBi" id="1Mw0qFUji0_" role="3clFbG">
               <node concept="1Q80Hx" id="1Mw0qFUjhTK" role="2Oq$k0" />
