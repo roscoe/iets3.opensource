@@ -918,6 +918,18 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1Mw0qFWdX1s" role="3bR37C">
+          <node concept="3bR9La" id="1Mw0qFWdX1t" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="90a9:64TsoMQT2qP" resolve="de.slisson.mps.hacks.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1Mw0qFWdX1u" role="3bR37C">
+          <node concept="3bR9La" id="1Mw0qFWdX1v" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="ub9nkyRnyj" role="2G$12L">
         <property role="BnDLt" value="true" />
