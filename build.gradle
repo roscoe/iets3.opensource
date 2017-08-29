@@ -36,7 +36,7 @@ if (!project.hasProperty("mbeddrVersion")) {
         ext.mbeddrVersion = '1.0-SNAPSHOT'
     }
     else {
-        ext.mbeddrVersion = '1.0.18855.b1d2633'
+        ext.mbeddrVersion = '1.0.18894.2d6876f'
     }
 }
 
