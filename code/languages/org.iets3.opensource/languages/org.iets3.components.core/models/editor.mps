@@ -13,6 +13,7 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="8" />
     <use id="52733268-be24-4f5f-ab84-a73b7c0c03b0" name="de.slisson.mps.richtext.customcell" version="0" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -47,6 +48,7 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="ir4w" ref="r:1ee7d695-67a0-4310-b6a9-28ed5f54bc88(org.iets3.core.attributes.editor)" />
+    <import index="138" ref="r:2c1007f3-e814-47ba-b729-c3ea0297f627(org.iets3.core.attributes.structure)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="itrz" ref="r:80fb0853-eb3b-4e84-aebd-cc7fdb011d97(org.iets3.core.base.editor)" implicit="true" />
@@ -1498,6 +1500,9 @@
           </node>
         </node>
       </node>
+      <node concept="PMmxH" id="6GkZmVUOmZn" role="3EZMnx">
+        <ref role="PMmxG" node="6GkZmVS_HkJ" resolve="demoAttributesComponent" />
+      </node>
     </node>
     <node concept="PMmxH" id="4A8SzOV9V6V" role="6VMZX">
       <ref role="PMmxG" to="ir4w:3NBP8_OgMYe" resolve="attributes" />
@@ -1659,6 +1664,9 @@
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
+      </node>
+      <node concept="PMmxH" id="6GkZmVS_LFD" role="3EZMnx">
+        <ref role="PMmxG" node="6GkZmVS_HkJ" resolve="demoAttributesComponent" />
       </node>
     </node>
     <node concept="PMmxH" id="4A8SzOV88J3" role="6VMZX">
@@ -12764,6 +12772,44 @@
     </node>
     <node concept="PMmxH" id="1yY6_Uj8p_w" role="6VMZX">
       <ref role="PMmxG" to="ir4w:3NBP8_OgMYe" resolve="attributes" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="6GkZmVS_HkJ">
+    <property role="3GE5qa" value="components" />
+    <property role="TrG5h" value="demoAttributesComponent" />
+    <ref role="1XX52x" to="138:3NBP8_OgMVd" resolve="IAttributed" />
+    <node concept="_tjkj" id="6GkZmVUCpal" role="2wV5jI">
+      <node concept="3EZMnI" id="6GkZmVTBGTv" role="_tjki">
+        <node concept="3F0ifn" id="6GkZmVTBGTG" role="3EZMnx">
+          <property role="3F0ifm" value="{" />
+        </node>
+        <node concept="3F2HdR" id="6GkZmVTBGTH" role="3EZMnx">
+          <property role="S$F3r" value="true" />
+          <ref role="1NtTu8" to="138:3NBP8_OgMVe" resolve="attributes" />
+          <node concept="2EHx9g" id="6GkZmVTBGTI" role="2czzBx" />
+          <node concept="3F0ifn" id="6GkZmVTBGTJ" role="2czzBI" />
+          <node concept="1HlG4h" id="6GkZmVTBGTK" role="3EmGlc">
+            <node concept="Vb9p2" id="6GkZmVTBGTL" role="3F10Kt">
+              <property role="Vbekb" value="ITALIC" />
+            </node>
+            <node concept="1HfYo3" id="6GkZmVTBGTM" role="1HlULh">
+              <node concept="3TQlhw" id="6GkZmVTBGTN" role="1Hhtcw">
+                <node concept="3clFbS" id="6GkZmVTBGTO" role="2VODD2">
+                  <node concept="3clFbF" id="6GkZmVTBGTP" role="3cqZAp">
+                    <node concept="Xl_RD" id="6GkZmVTBGTQ" role="3clFbG">
+                      <property role="Xl_RC" value=".." />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3F0ifn" id="6GkZmVTBGTx" role="3EZMnx">
+          <property role="3F0ifm" value="}" />
+        </node>
+        <node concept="2iRfu4" id="6GkZmVTBGTy" role="2iSdaV" />
+      </node>
     </node>
   </node>
 </model>
