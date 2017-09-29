@@ -17,6 +17,7 @@ def forceLocal = project.hasProperty("forceLocalDependencies")
 ext.mpsVersion = '2017.2.2'
 
 
+
 // Project version
 if (project.hasProperty('iets3OpenSourceVersion')) {
     version = project.iets3OpenSourceVersion
