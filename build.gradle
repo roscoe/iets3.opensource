@@ -37,7 +37,7 @@ if (!project.hasProperty("mbeddrVersion")) {
         ext.mbeddrVersion = '1.0-SNAPSHOT'
     }
     else {
-        ext.mbeddrVersion = '1.0.19402.cd278a6'
+        ext.mbeddrVersion = 'aos-sprint10.1.0.+'
     }
 }
 
