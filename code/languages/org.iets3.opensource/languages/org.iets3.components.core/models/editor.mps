@@ -494,6 +494,7 @@
       <concept id="3155126767690989914" name="de.itemis.mps.editor.diagram.structure.Content_GenericBoxQuery" flags="ng" index="ahg9e">
         <child id="6554619383004026644" name="editorComponent" index="23bJyd" />
         <child id="339189006513544402" name="navigationTargets" index="2Kg1p8" />
+        <child id="738815095919968379" name="preservePortOrder" index="1pgkKh" />
         <child id="5126420796713997777" name="shape" index="3Uta5s" />
       </concept>
       <concept id="3462102746004176270" name="de.itemis.mps.editor.diagram.structure.DeleteHandler" flags="ig" index="2fs66k" />
@@ -4125,6 +4126,17 @@
                   <node concept="3YRAZt" id="v8xu81RjS$" role="2OqNvi" />
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4a5BwhuXzAz" role="1pgkKh">
+            <node concept="2OqwBi" id="4a5BwhuXxMB" role="2Oq$k0">
+              <node concept="37u81S" id="4a5BwhuXwvR" role="2Oq$k0" />
+              <node concept="3TrEf2" id="4a5BwhuXz9M" role="2OqNvi">
+                <ref role="3Tt5mk" to="w9y2:mIQkxfpv7_" resolve="category" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="4a5BwhuX$Ph" role="2OqNvi">
+              <ref role="37wK5l" to="3eba:4a5BwhuNU42" resolve="preserverOrder" />
             </node>
           </node>
         </node>
