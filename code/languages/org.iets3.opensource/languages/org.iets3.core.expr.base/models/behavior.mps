@@ -19069,7 +19069,7 @@
     <node concept="13i0hz" id="4fgA7QrKR89" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
-      <property role="TrG5h" value="nodeToCalculateTypeFrom" />
+      <property role="TrG5h" value="getContextType" />
       <node concept="3Tm1VV" id="4fgA7QrKR8a" role="1B3o_S" />
       <node concept="3Tqbb2" id="4fgA7QrKR8t" role="3clF45" />
       <node concept="3clFbS" id="4fgA7QrKR8c" role="3clF47" />
