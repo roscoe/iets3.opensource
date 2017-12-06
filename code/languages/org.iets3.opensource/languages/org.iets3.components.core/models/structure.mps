@@ -293,6 +293,9 @@
     <node concept="PrWs8" id="mIQkxfRmg2" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
     </node>
+    <node concept="PrWs8" id="181CQfpgIQL" role="PzmwI">
+      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
+    </node>
     <node concept="1TJgyj" id="mIQkxfpv7_" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="category" />
@@ -445,6 +448,9 @@
     </node>
     <node concept="PrWs8" id="cJpacq6wvp" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
+    <node concept="PrWs8" id="181CQfpgIQX" role="PzmwI">
+      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
     </node>
   </node>
   <node concept="1TIwiD" id="4UgzZxsF_xB">
@@ -733,6 +739,9 @@
     </node>
     <node concept="PrWs8" id="7Atos1yb6hI" role="PzmwI">
       <ref role="PrY4T" to="vs0r:7NyyyjNt9Bq" resolve="ITreeViewable" />
+    </node>
+    <node concept="PrWs8" id="181CQfpgIRw" role="PzmwI">
+      <ref role="PrY4T" to="vs0r:3m8H$lmFM60" resolve="IDocumentable" />
     </node>
   </node>
   <node concept="PlHQZ" id="4KDeVD8s9RL">
