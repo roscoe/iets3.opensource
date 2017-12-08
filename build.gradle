@@ -31,7 +31,7 @@ ext.mpsVersion = '2017.3'
 
 def getBuildNumber() {
     if (ciBuild && project.hasProperty("teamcity")) {
-        return project.getProperty("teamcity.build.counter").toInteger()
+        return project.teamcity.build.number.toInteger()
     }
     return GitBasedVersioning.getGitCommitCount()
 }
