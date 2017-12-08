@@ -29,13 +29,20 @@ def forceLocal = project.hasProperty("forceLocalDependencies")
 // Dependency versions
 ext.mpsVersion = '2017.3'
 
+def getBuildNumber() {
+    if (ciBuild && project.hasProperty("teamcity")) {
+        return project.getProperty("teamcity.build.counter").toInteger()
+    }
+    return GitBasedVersioning.getGitCommitCount()
+}
+
 
 // Project version
 if (project.hasProperty('iets3OpenSourceVersion')) {
     version = project.iets3OpenSourceVersion
 } else {
     if (ciBuild) {
-        version = GitBasedVersioning.getVersion('0', '1')
+        version = GitBasedVersioning.getVersion('0', '1', getBuildNumber())
         println "##teamcity[buildNumber '${version}']"
     } else {
         println "Local build detected, version will be SNAPSHOT"
