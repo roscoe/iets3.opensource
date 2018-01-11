@@ -50,7 +50,7 @@ if (!project.hasProperty("mbeddrVersion")) {
     }
     else {
         //default version
-        ext.mbeddrVersion = '1.0.19654.16ab6cc'
+        ext.mbeddrVersion = 'aos-sprint12.1.0.+'
     }
 }
 
