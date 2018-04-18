@@ -40,6 +40,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -938,6 +939,20 @@
     </node>
     <node concept="1TJgyj" id="5kGo$yLJ8lv" role="1TKVEi">
       <property role="IQ2ns" value="6137388456558232927" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="hm2y:6sdnDbSla17" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="30bJ2H2uE7J">
+    <property role="EcuMT" value="3462067632549306863" />
+    <property role="TrG5h" value="LogExpression" />
+    <property role="34LRSv" value="log" />
+    <property role="R4oN_" value="logs the result of the contained expression." />
+    <ref role="1TJDcQ" to="hm2y:6sdnDbSla17" resolve="Expression" />
+    <node concept="1TJgyj" id="30bJ2H2uE7K" role="1TKVEi">
+      <property role="IQ2ns" value="3462067632549306864" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expr" />
       <property role="20lbJX" value="1" />

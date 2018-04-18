@@ -137,6 +137,9 @@
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
+      <concept id="1236262245656" name="jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem" flags="ln" index="3mYdg7">
+        <property id="1238091709220" name="labelName" index="1413C4" />
+      </concept>
       <concept id="1165420413719" name="jetbrains.mps.lang.editor.structure.CellMenuPart_Generic_Group" flags="ng" index="1ou48o">
         <child id="1165420413721" name="handlerFunction" index="1ou48m" />
         <child id="1165420413720" name="parametersFunction" index="1ou48n" />
@@ -5245,6 +5248,39 @@
       </node>
       <node concept="VPM3Z" id="46cplYwLY$f" role="3F10Kt">
         <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="30bJ2H2uE7N">
+    <ref role="1XX52x" to="av4b:30bJ2H2uE7J" resolve="LogExpression" />
+    <node concept="3EZMnI" id="30bJ2H2uE7P" role="2wV5jI">
+      <node concept="l2Vlx" id="30bJ2H2uE7Q" role="2iSdaV" />
+      <node concept="3F0ifn" id="30bJ2H2uE7R" role="3EZMnx">
+        <property role="3F0ifm" value="log" />
+      </node>
+      <node concept="3F0ifn" id="30bJ2H2uE7S" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <node concept="11L4FC" id="30bJ2H2uE7T" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3mYdg7" id="30bJ2H2uE7U" role="3F10Kt">
+          <property role="1413C4" value="body-paren" />
+        </node>
+        <node concept="11LMrY" id="30bJ2H2uE7V" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="30bJ2H2uE7Z" role="3EZMnx">
+        <ref role="1NtTu8" to="av4b:30bJ2H2uE7K" resolve="expr" />
+      </node>
+      <node concept="3F0ifn" id="30bJ2H2uE80" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <node concept="11L4FC" id="30bJ2H2uE81" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3mYdg7" id="30bJ2H2uE82" role="3F10Kt">
+          <property role="1413C4" value="body-paren" />
+        </node>
       </node>
     </node>
   </node>
